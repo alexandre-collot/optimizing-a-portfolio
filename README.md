@@ -16,10 +16,10 @@ Be ready for dealing with errors in the names and some missing values.
 * Add meaningful visualizations of your choice.
 
 **Question 3: Create a function that calculates the Return of Investment (ROI). Let's suppose you buy one stock one day, you hold it for N days (lookback period) and after N days you sell it. The ROI formula is:**:
-* ROI = (FVI - IVI / IVI) * 100
-* IVI: initial value of investment. This is the price at which you bought the stock
-* FVI: final value of investment. This is the price at which you sold the stock
-* ROI: Return of Investment. This is the percentage of increase in value of the investment
+* *ROI = (FVI - IVI / IVI) * 100
+* *IVI: initial value of investment. This is the price at which you bought the stock
+* *FVI: final value of investment. This is the price at which you sold the stock
+* *ROI: Return of Investment. This is the percentage of increase in value of the investment
 * Now that we know how to calculate the ROI, create a function in Python that receives as parameters the following:
 * lookback: the number of days you hold the stock
 * name: the name of the stock, using the "Close" value of the stock
@@ -32,7 +32,8 @@ Be ready for dealing with errors in the names and some missing values.
 * ROI after holding the stock for 90 days (green, solid line)
 
 **Question 5:** The average ROI is a single number that comes from computing the overall mean of the ROI over the whole period of the series. **Given these two portfolios, which one has the best average ROI, with a lookback of 365 days?** 
-* *Portfolio 1: AAPL 40%, GOOG 30%, MSFT 20%, AMZN 10%*
-* *Portfolio 2:AAPL 30%, GOOG 20%, MSFT 10%, AMZN 40%*.
+* Portfolio 1: AAPL 40%, GOOG 30%, MSFT 20%, AMZN 10%*
+* Portfolio 2:AAPL 30%, GOOG 20%, MSFT 10%, AMZN 40%*.
 
-**Question 6: Find a better combination in your portfolio**. The new combination should beat the best portfolio that you found in the previous exercise.
+**Question 6: Find a better combination in your portfolio**. 
+* The new combination should beat the best portfolio that you found in the previous exercise.
